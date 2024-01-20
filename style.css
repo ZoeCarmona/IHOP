@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+header{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.279);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    font-size: 16px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+}
+
+.logo{
+    text-align: center;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+}
+
+.list-text{
+    margin: 0px 30px 0px 30px;
+}
+
+.list-text:hover{
+    color: #C3332B;
+    cursor: pointer;
+}
+
+/* ---------------------- MAIN --------------------- */
+.grid-2{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.types{
+    padding: 30px 30px 50px 80px;
+}
+
+.types-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    color: #326db5;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.types-list-last{
+    color: #C3332B;
+}
+
+.pancakes{
+    padding: 30px;
+}
+
+.box{
+    background-color: #326db5;
+    padding: 15px;
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: 24.1% 24.1% 24.1% 24.1%;
+    grid-template-rows: 50% 50%;
+    gap: 10px;
+    margin: 20px 0px 20px 0px;
+}
+
+.pancakes-div{
+    border: 1px solid rgba(128, 128, 128, 0.173);
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.pan-text{
+    font-size: 16px;
+    color: #326db5;
+    font-weight: bolder;
+}
+
+.pancakes-div > div {
+    padding: 10px; 
+    max-width: 100%; 
+    margin: 0 auto; 
+}
